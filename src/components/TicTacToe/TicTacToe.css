@@ -6,7 +6,25 @@
   .symbol-selection {
     margin-bottom: 20px;
   }
+
+  .symbol-title{
+    color: brown;
+  }
   
+  .select-btn{
+    margin-top: 50px;
+    margin-left: 20px;
+    gap: 10px;
+    height: 50px;
+    width: 90px;
+    background:rgb(85, 154, 197);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    
+  }
+
   .box {
     width: 100px;
     height: 100px;

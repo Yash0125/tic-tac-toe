@@ -1,6 +1,9 @@
 .app {
     text-align: center;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .symbol-selection {
@@ -51,6 +54,11 @@
     gap: 2px;
     margin-bottom: 20px;
   }
+
+  .player{
+    color: #20026e;
+    margin-bottom: 30px;
+  }
   
   h2 {
     font-size: 20px;
@@ -59,5 +67,17 @@
   
   .box.winner {
     background-color: #ff6347;
+  }
+
+  .reset-btn{
+    height: 50px;
+    width: 90px;
+    margin-top: 20px;
+    color: aqua;
+    background: rgb(98, 176, 98);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
   }
   

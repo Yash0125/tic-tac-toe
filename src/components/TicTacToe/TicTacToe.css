@@ -1,0 +1,45 @@
+.app {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .symbol-selection {
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .box.X {
+    background-color: #ffd700;
+  }
+  
+  .box.O {
+    background-color: #90ee90;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 2px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .box.winner {
+    background-color: #ff6347;
+  }
+  
